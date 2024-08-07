@@ -27,6 +27,7 @@ const backgroundLevel1 = new Sprite({
 const player = new Player({
     // since this has the same name as the collisionBlocks we do not need to pass in the same key and value
     collisionBlocks,
+    imageSrc: './img/king/idle.png'
     
 })
 
